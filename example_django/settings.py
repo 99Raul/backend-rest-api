@@ -27,7 +27,6 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DEBUG = True if os.environ['MODE'] == 'dev' else False
 ALLOWED_HOSTS = ['*']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -136,3 +135,6 @@ REST_FRAMEWORK = {
 
 
 AUTH_USER_MODEL='users.User'
+
+
+STATIC_ROOT = 'staticfiles'
