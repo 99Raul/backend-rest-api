@@ -87,6 +87,20 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
 ]
 
+
+CORS_ALLOW_HEADERS = [
+    'Access-Control-Allow-Origin',
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+]
+
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
